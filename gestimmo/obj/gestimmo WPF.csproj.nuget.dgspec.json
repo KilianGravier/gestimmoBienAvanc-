@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\k.gravier\\Desktop\\tp1-gestimmo-KilianGravier-main\\gestimmo\\gestimmo WPF.csproj": {}
+    "C:\\Users\\k.gravier\\source\\repos\\gestimmoBienAvancer\\gestimmo\\gestimmo WPF.csproj": {}
   },
   "projects": {
-    "C:\\Users\\k.gravier\\Desktop\\tp1-gestimmo-KilianGravier-main\\gestimmo\\gestimmo WPF.csproj": {
+    "C:\\Users\\k.gravier\\source\\repos\\gestimmoBienAvancer\\gestimmo\\gestimmo WPF.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\k.gravier\\Desktop\\tp1-gestimmo-KilianGravier-main\\gestimmo\\gestimmo WPF.csproj",
+        "projectUniqueName": "C:\\Users\\k.gravier\\source\\repos\\gestimmoBienAvancer\\gestimmo\\gestimmo WPF.csproj",
         "projectName": "gestimmo WPF",
-        "projectPath": "C:\\Users\\k.gravier\\Desktop\\tp1-gestimmo-KilianGravier-main\\gestimmo\\gestimmo WPF.csproj",
+        "projectPath": "C:\\Users\\k.gravier\\source\\repos\\gestimmoBienAvancer\\gestimmo\\gestimmo WPF.csproj",
         "packagesPath": "C:\\Users\\k.gravier\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\k.gravier\\Desktop\\tp1-gestimmo-KilianGravier-main\\gestimmo\\obj\\",
+        "outputPath": "C:\\Users\\k.gravier\\source\\repos\\gestimmoBienAvancer\\gestimmo\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\k.gravier\\AppData\\Roaming\\NuGet\\NuGet.Config",

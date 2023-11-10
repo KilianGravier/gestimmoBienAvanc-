@@ -20,6 +20,21 @@ namespace gestimmo_WPF
     /// </summary>
     public partial class MainWindow : Window
     {
-        
+        public MainWindow()
+        {
+            InitializeComponent();
+        }
+
+        private void BiensButton_Click(object sender, RoutedEventArgs e)
+        {
+            // Naviguer vers la page des biens
+            MainFrame.Navigate(new Uri("BiensPage.xaml", UriKind.Relative));
+        }
     }
+
+
+
+
+
+
 }

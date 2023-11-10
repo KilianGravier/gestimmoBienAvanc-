@@ -7,6 +7,23 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
 
+        <!-- Boutons de navigation -->
+        <StackPanel Orientation="Horizontal" Background="LightGray" VerticalAlignment="Top">
+            <Button Content="Accueil" Margin="10"/>
+            <Button Content="Biens" Margin="10" Click="BiensButton_Click"/>
+            <Button Content="Interventions" Margin="10"/>
+            <Button Content="Prets" Margin="10"/>
+        </StackPanel>
+
+        <!-- Contenu de la page -->
+        <Grid Grid.Row="1">
+            <!-- Le Frame qui hébergera la navigation -->
+            <Frame x:Name="MainFrame"/>
+        </Grid>
     </Grid>
 </Window>
