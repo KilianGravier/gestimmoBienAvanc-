@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "fFLqXwXffCaZNC1f9JjlyRl+91JwEujBGlbVL2Kgu/LbTRY4NIO5+Q0pPatam+BvlYwNYX2aeMysilhcrjXSrA==",
+  "dgSpecHash": "cIqC86SCDOW8wdcbzK3vL/q+P4WzGZUK5pS2YlxUH7cqGIXer7wf/OAR3yE3y0AhxxwLZJAx/4FwohX/ncbqsQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\k.gravier\\source\\repos\\gestimmoBienAvancer\\gestimmo\\gestimmo WPF.csproj",
   "expectedPackageFiles": [
@@ -24,6 +24,10 @@
     "C:\\Users\\k.gravier\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
     "C:\\Users\\k.gravier\\.nuget\\packages\\npgsql\\7.0.6\\npgsql.7.0.6.nupkg.sha512",
     "C:\\Users\\k.gravier\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\7.0.11\\npgsql.entityframeworkcore.postgresql.7.0.11.nupkg.sha512",
+    "C:\\Users\\k.gravier\\.nuget\\packages\\serilog\\3.1.1\\serilog.3.1.1.nupkg.sha512",
+    "C:\\Users\\k.gravier\\.nuget\\packages\\serilog.formatting.compact\\2.0.0\\serilog.formatting.compact.2.0.0.nupkg.sha512",
+    "C:\\Users\\k.gravier\\.nuget\\packages\\serilog.sinks.console\\5.0.0\\serilog.sinks.console.5.0.0.nupkg.sha512",
+    "C:\\Users\\k.gravier\\.nuget\\packages\\serilog.sinks.file\\5.0.0\\serilog.sinks.file.5.0.0.nupkg.sha512",
     "C:\\Users\\k.gravier\\.nuget\\packages\\system.codedom\\4.4.0\\system.codedom.4.4.0.nupkg.sha512",
     "C:\\Users\\k.gravier\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "C:\\Users\\k.gravier\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",

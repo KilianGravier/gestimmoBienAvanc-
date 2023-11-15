@@ -53,7 +53,7 @@ namespace gestimmo_WPF.Views.SubViews {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/gestimmo WPF;V1.0.0.0;component/views/subviews/homeview.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/gestimmo WPF;component/views/subviews/homeview.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\Views\SubViews\HomeView.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

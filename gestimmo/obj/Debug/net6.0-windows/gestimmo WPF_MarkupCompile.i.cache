@@ -1,7 +1,7 @@
 ﻿gestimmo WPF
 1.0.0.0
 
-winexe
+exe
 C#
 .cs
 C:\Users\k.gravier\source\repos\gestimmoBienAvancer\gestimmo\obj\Debug\net6.0-windows\
@@ -13,8 +13,8 @@ C:\Users\k.gravier\source\repos\gestimmoBienAvancer\gestimmo\App.xaml
 3794935155
 
 21718353877
-208515108662
+212-115070186
 MainWindow.xaml;Views\SubViews\BiensView.xaml;Views\SubViews\HomeView.xaml;
 
-True
+False
 
