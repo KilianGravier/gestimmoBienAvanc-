@@ -23,14 +23,18 @@ namespace gestimmo_WPF
         public MainWindow()
         {
             InitializeComponent();
+            // Charge la page d'accueil au démarrage
+            MainFrame.Navigate(new Uri("MainWindow.xaml", UriKind.Relative));
         }
 
         private void BiensButton_Click(object sender, RoutedEventArgs e)
         {
-            // Naviguer vers la page des biens
-            MainFrame.Navigate(new Uri("BiensPage.xaml", UriKind.Relative));
+            // Charge la page Biens lors du clic sur le bouton Biens
+            MainFrame.Navigate(new Uri("BiensView.xaml", UriKind.Relative));
         }
     }
+
+
 
 
 

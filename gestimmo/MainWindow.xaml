@@ -1,4 +1,4 @@
-﻿<Window x:Class="gestimmo.MainWindow"
+﻿<Window x:Class="gestimmo_WPF.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
@@ -22,8 +22,31 @@
 
         <!-- Contenu de la page -->
         <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="21*"/>
+                <ColumnDefinition Width="22*"/>
+                <ColumnDefinition Width="357*"/>
+            </Grid.ColumnDefinitions>
+
+            <!-- Titres -->
+            <StackPanel Orientation="Vertical" HorizontalAlignment="Left" VerticalAlignment="Center" Grid.ColumnSpan="2" Margin="43,0,0,0" Grid.Column="1">
+                <!-- Première ligne de titres -->
+                <StackPanel Orientation="Horizontal" Margin="0,0,0,20">
+                    <TextBlock Text="Nombre de bien" FontSize="20" FontWeight="Bold" Margin="10"/>
+                    <TextBlock Text="Bénéfice mensuel cumulé" FontSize="20" FontWeight="Bold" Margin="10"/>
+                    <TextBlock Text="Masse totale dette" FontSize="20" FontWeight="Bold" Margin="10"/>
+                </StackPanel>
+
+                <!-- Deuxième ligne de titres -->
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock Text="Nombre de Pret" FontSize="20" FontWeight="Bold" Margin="10"/>
+                    <TextBlock Text="Dette mensuel cumulé" FontSize="20" FontWeight="Bold" Margin="10"/>
+                    <TextBlock Text="Loyer mensuel cumulé" FontSize="20" FontWeight="Bold" Margin="10"/>
+                </StackPanel>
+            </StackPanel>
+
             <!-- Le Frame qui hébergera la navigation -->
-            <Frame x:Name="MainFrame"/>
+            <Frame x:Name="MainFrame" Grid.ColumnSpan="3"/>
         </Grid>
     </Grid>
 </Window>
