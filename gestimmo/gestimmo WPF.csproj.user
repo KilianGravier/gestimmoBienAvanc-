@@ -10,6 +10,9 @@
     <Compile Update="Views\SubViews\BiensView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Views\SubViews\BiensWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Views\SubViews\HomeView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -19,6 +22,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Views\SubViews\BiensView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\SubViews\BiensWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Views\SubViews\HomeView.xaml">

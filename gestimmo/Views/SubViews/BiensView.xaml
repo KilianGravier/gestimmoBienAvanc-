@@ -3,12 +3,25 @@
       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
-      xmlns:local="clr-namespace:gestimmo_WPF.Views.SubViews"
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
       Title="BiensView">
 
     <Grid>
-        
+        <!-- éléments graphiques -->
+        <StackPanel>
+            <Label Content="Liste des biens" FontWeight="Bold" FontSize="18"/>
+            <ListView>
+               
+                <!--  colonnes pour afficher les détails des biens -->
+                <ListView.View>
+                    <GridView>
+                        <GridViewColumn Header="Nom" Width="120"/>
+                        <GridViewColumn Header="Type" Width="100"/>
+                        <!-- Ajoutez d'autres colonnes selon les informations à afficher -->
+                    </GridView>
+                </ListView.View>
+            </ListView>
+        </StackPanel>
     </Grid>
 </Page>

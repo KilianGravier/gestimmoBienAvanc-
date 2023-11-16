@@ -1,0 +1,42 @@
+﻿<Page x:Class="gestimmo_WPF.Views.SubViews.BiensView"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      Title="BiensView">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <!-- Colonne pour "Mes biens" -->
+            <ColumnDefinition Width="Auto"/>
+            <!-- Colonne pour le formulaire "Ajouter des biens" -->
+            <ColumnDefinition Width="Auto"/>
+        </Grid.ColumnDefinitions>
+
+        <!-- Partie "Mes biens" à gauche -->
+        <Grid Grid.Column="0">
+            <!-- ListView ou autre contrôle pour afficher la liste des biens -->
+            <ListView Name="MesBiensListView">
+                <!-- Définir le style de l'affichage des biens -->
+            </ListView>
+        </Grid>
+
+        <!-- Formulaire "Ajouter des biens" à droite -->
+        <Grid Grid.Column="1">
+            <StackPanel>
+                <TextBox x:Name="MonTextBox" Width="200" Height="30" Margin="5"/>
+                <TextBlock Text="Placeholder" Foreground="Gray" Margin="8,0,0,0" VerticalAlignment="Center" IsHitTestVisible="False">
+                    <TextBlock.Style>
+                        <Style TargetType="TextBlock">
+                            <Setter Property="Visibility" Value="Collapsed"/>
+                            <Style.Triggers>
+                                <DataTrigger Binding="{Binding ElementName=MonTextBox, Path=Text.Length}" Value="0">
+                                    <Setter Property="Visibility" Value="Visible"/>
+                                </DataTrigger>
+
+                            </Style.Triggers>
+                        </Style>
+                    </TextBlock.Style>
+                </TextBlock>
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Page>

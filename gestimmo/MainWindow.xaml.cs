@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using gestimmo_WPF.Views.SubViews;
 
 namespace gestimmo_WPF
 {
@@ -24,14 +25,19 @@ namespace gestimmo_WPF
         {
             InitializeComponent();
             // Charge la page d'accueil au démarrage
-            MainFrame.Navigate(new Uri("MainWindow.xaml", UriKind.Relative));
+            // MainFrame.Navigate(new Uri("MainWindow.xaml", UriKind.Relative));
         }
 
         private void BiensButton_Click(object sender, RoutedEventArgs e)
         {
-            // Charge la page Biens lors du clic sur le bouton Biens
-            MainFrame.Navigate(new Uri("BiensView.xaml", UriKind.Relative));
+            // Crée une nouvelle fenêtre pour afficher la page BiensView
+            BiensWindow biensWindow = new BiensWindow();
+            biensWindow.Show();
         }
+
+
+
+
     }
 
 

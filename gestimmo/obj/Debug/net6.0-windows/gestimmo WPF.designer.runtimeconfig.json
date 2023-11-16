@@ -12,8 +12,8 @@
       }
     ],
     "additionalProbingPaths": [
-      "C:\\Users\\k.gravier\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\k.gravier\\.nuget\\packages"
+      "C:\\Users\\kilia\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\kilia\\.nuget\\packages"
     ],
     "configProperties": {
       "System.Reflection.NullabilityInfoContext.IsSupported": true,

@@ -88,3 +88,13 @@ C:\Users\k.gravier\source\repos\gestimmoBienAvancer\gestimmo\obj\Debug\net6.0-wi
 C:\Users\k.gravier\source\repos\gestimmoBienAvancer\gestimmo\obj\Debug\net6.0-windows\Views\SubViews\HomeView.g.cs
 C:\Users\k.gravier\source\repos\gestimmoBienAvancer\gestimmo\obj\Debug\net6.0-windows\Views\SubViews\BiensView.baml
 C:\Users\k.gravier\source\repos\gestimmoBienAvancer\gestimmo\obj\Debug\net6.0-windows\Views\SubViews\HomeView.baml
+C:\Users\kilia\source\repos\gestimmoBienAvanc-\gestimmo\obj\Debug\net6.0-windows\gestimmo WPF.csproj.AssemblyReference.cache
+C:\Users\kilia\source\repos\gestimmoBienAvanc-\gestimmo\obj\Debug\net6.0-windows\Views\SubViews\BiensWindow.baml
+C:\Users\kilia\source\repos\gestimmoBienAvanc-\gestimmo\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\kilia\source\repos\gestimmoBienAvanc-\gestimmo\obj\Debug\net6.0-windows\Views\SubViews\BiensView.g.cs
+C:\Users\kilia\source\repos\gestimmoBienAvanc-\gestimmo\obj\Debug\net6.0-windows\Views\SubViews\BiensWindow.g.cs
+C:\Users\kilia\source\repos\gestimmoBienAvanc-\gestimmo\obj\Debug\net6.0-windows\Views\SubViews\HomeView.g.cs
+C:\Users\kilia\source\repos\gestimmoBienAvanc-\gestimmo\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\kilia\source\repos\gestimmoBienAvanc-\gestimmo\obj\Debug\net6.0-windows\gestimmo WPF_MarkupCompile.cache
+C:\Users\kilia\source\repos\gestimmoBienAvanc-\gestimmo\obj\Debug\net6.0-windows\gestimmo WPF_MarkupCompile.lref
+C:\Users\kilia\source\repos\gestimmoBienAvanc-\gestimmo\obj\Debug\net6.0-windows\Views\SubViews\BiensView.baml
