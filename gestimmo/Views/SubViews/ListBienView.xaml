@@ -1,0 +1,45 @@
+﻿<Page x:Class="gestimmo_WPF.Views.SubViews.ListBienView"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:gestimmo_WPF.Views.SubViews"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="ListBienView">
+
+    <Grid>
+        <!-- Grille pour organiser les éléments de la page -->
+        <!-- Partie gauche - Détails des biens -->
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        <!-- StackPanel pour organiser verticalement les éléments -->
+        <StackPanel Grid.Column="0">
+            <!-- Titre "Mes biens" -->
+            <TextBlock Text="Mes biens" FontSize="18" FontWeight="Bold" Margin="5"/>
+
+            <!-- ComboBox pour le type de bien -->
+            
+            <!-- Liste des biens -->
+            <ListView Name="MesBiensListView">
+                <!-- Structure pour afficher les biens -->
+                <ListView.View>
+                    <GridView>
+                        <!-- Colonne pour le nom du bien -->
+                        <GridViewColumn Header="Nom du Bien" DisplayMemberBinding="{Binding Nom}" Width="150"/>
+                        <!-- Autres colonnes -->
+                        <!-- Colonne pour la surface du bien -->
+                        <GridViewColumn Header="Surface" DisplayMemberBinding="{Binding Surface}" Width="100"/>
+                        <!-- Autres colonnes -->
+                        <!-- Colonne pour la surface de valeur -->
+                        <GridViewColumn Header="Valeur" DisplayMemberBinding="{Binding Valeur}" Width="100"/>
+                    </GridView>
+                </ListView.View>
+            </ListView>
+        </StackPanel>
+
+    </Grid>
+</Page>

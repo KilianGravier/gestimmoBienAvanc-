@@ -151,3 +151,6 @@ C:\Users\k.gravier\source\repos\gestimmoBienAvancer\gestimmoBienAvanc-\gestimmo\
 C:\Users\k.gravier\source\repos\gestimmoBienAvancer\gestimmoBienAvanc-\gestimmo\obj\Debug\net6.0-windows\Views\Forms\GererBienForm.baml
 C:\Users\k.gravier\source\repos\gestimmoBienAvancer\gestimmoBienAvanc-\gestimmo\obj\Debug\net6.0-windows\Views\Forms\GererBoxForm.g.cs
 C:\Users\k.gravier\source\repos\gestimmoBienAvancer\gestimmoBienAvanc-\gestimmo\obj\Debug\net6.0-windows\Views\Forms\GererBoxForm.baml
+C:\Users\k.gravier\source\repos\gestimmoBienAvancer\gestimmoBienAvanc-\gestimmo\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\k.gravier\source\repos\gestimmoBienAvancer\gestimmoBienAvanc-\gestimmo\obj\Debug\net6.0-windows\Views\SubViews\ListBienView.g.cs
+C:\Users\k.gravier\source\repos\gestimmoBienAvancer\gestimmoBienAvanc-\gestimmo\obj\Debug\net6.0-windows\Views\SubViews\ListBienView.baml

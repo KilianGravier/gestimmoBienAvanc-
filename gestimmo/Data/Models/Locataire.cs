@@ -14,10 +14,7 @@ namespace gestimmo_WPF
         private int age;
         private Contrat bail;
 
-        public Locataire ()
-        {
-
-        }
+        
 
         public Locataire(string nom, string prenom, string profession, int age, Contrat bail)
         {

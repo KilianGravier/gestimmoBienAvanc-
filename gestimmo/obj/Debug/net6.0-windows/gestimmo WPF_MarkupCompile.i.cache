@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 C:\Users\k.gravier\source\repos\gestimmoBienAvancer\gestimmoBienAvanc-\gestimmo\App.xaml
-61362548530
+71449370678
 
-24273776203
+25-732150422
 208515108662
-MainWindow.xaml;Views\Forms\GererBienForm.xaml;Views\Forms\GererBoxForm.xaml;Views\SubViews\BiensView.xaml;Views\SubViews\HomeView.xaml;Views\SubViews\NavigationView.xaml;
+MainWindow.xaml;Views\Forms\GererBienForm.xaml;Views\Forms\GererBoxForm.xaml;Views\SubViews\BiensView.xaml;Views\SubViews\HomeView.xaml;Views\SubViews\ListBienView.xaml;Views\SubViews\NavigationView.xaml;
 
 True
 
