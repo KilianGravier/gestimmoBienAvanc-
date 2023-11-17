@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\kilia\source\repos\gestimmoBienAvanc-\gestimmo\obj\Debug\net6.0-windows\
+C:\Users\k.gravier\source\repos\gestimmoBienAvancer\gestimmoBienAvanc-\gestimmo\obj\Debug\net6.0-windows\
 gestimmo_WPF
 none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
-C:\Users\kilia\source\repos\gestimmoBienAvanc-\gestimmo\App.xaml
-41434893888
+C:\Users\k.gravier\source\repos\gestimmoBienAvancer\gestimmoBienAvanc-\gestimmo\App.xaml
+61362548530
 
-20-749388118
-208-572468185
-MainWindow.xaml;Views\SubViews\BiensView.xaml;Views\SubViews\BiensWindow.xaml;Views\SubViews\HomeView.xaml;
+221561431991
+208515108662
+MainWindow.xaml;Views\Forms\GererBienForm.xaml;Views\Forms\GererBoxForm.xaml;Views\SubViews\BiensView.xaml;Views\SubViews\HomeView.xaml;Views\SubViews\NavigationView.xaml;
 
 True
 

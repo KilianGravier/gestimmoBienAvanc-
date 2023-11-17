@@ -98,3 +98,56 @@ C:\Users\kilia\source\repos\gestimmoBienAvanc-\gestimmo\obj\Debug\net6.0-windows
 C:\Users\kilia\source\repos\gestimmoBienAvanc-\gestimmo\obj\Debug\net6.0-windows\gestimmo WPF_MarkupCompile.cache
 C:\Users\kilia\source\repos\gestimmoBienAvanc-\gestimmo\obj\Debug\net6.0-windows\gestimmo WPF_MarkupCompile.lref
 C:\Users\kilia\source\repos\gestimmoBienAvanc-\gestimmo\obj\Debug\net6.0-windows\Views\SubViews\BiensView.baml
+C:\Users\k.gravier\source\repos\gestimmoBienAvancer\gestimmoBienAvanc-\gestimmo\obj\Debug\net6.0-windows\gestimmo WPF.csproj.AssemblyReference.cache
+C:\Users\k.gravier\source\repos\gestimmoBienAvancer\gestimmoBienAvanc-\gestimmo\obj\Debug\net6.0-windows\Views\SubViews\BiensView.baml
+C:\Users\k.gravier\source\repos\gestimmoBienAvancer\gestimmoBienAvanc-\gestimmo\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\k.gravier\source\repos\gestimmoBienAvancer\gestimmoBienAvanc-\gestimmo\obj\Debug\net6.0-windows\Views\SubViews\BiensView.g.cs
+C:\Users\k.gravier\source\repos\gestimmoBienAvancer\gestimmoBienAvanc-\gestimmo\obj\Debug\net6.0-windows\Views\SubViews\HomeView.g.cs
+C:\Users\k.gravier\source\repos\gestimmoBienAvancer\gestimmoBienAvanc-\gestimmo\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\k.gravier\source\repos\gestimmoBienAvancer\gestimmoBienAvanc-\gestimmo\obj\Debug\net6.0-windows\gestimmo WPF_MarkupCompile.cache
+C:\Users\k.gravier\source\repos\gestimmoBienAvancer\gestimmoBienAvanc-\gestimmo\obj\Debug\net6.0-windows\gestimmo WPF_MarkupCompile.lref
+C:\Users\k.gravier\source\repos\gestimmoBienAvancer\gestimmoBienAvanc-\gestimmo\bin\Debug\net6.0-windows\gestimmo WPF.exe
+C:\Users\k.gravier\source\repos\gestimmoBienAvancer\gestimmoBienAvanc-\gestimmo\bin\Debug\net6.0-windows\gestimmo WPF.deps.json
+C:\Users\k.gravier\source\repos\gestimmoBienAvancer\gestimmoBienAvanc-\gestimmo\bin\Debug\net6.0-windows\gestimmo WPF.runtimeconfig.json
+C:\Users\k.gravier\source\repos\gestimmoBienAvancer\gestimmoBienAvanc-\gestimmo\bin\Debug\net6.0-windows\gestimmo WPF.dll
+C:\Users\k.gravier\source\repos\gestimmoBienAvancer\gestimmoBienAvanc-\gestimmo\bin\Debug\net6.0-windows\gestimmo WPF.pdb
+C:\Users\k.gravier\source\repos\gestimmoBienAvancer\gestimmoBienAvanc-\gestimmo\bin\Debug\net6.0-windows\Humanizer.dll
+C:\Users\k.gravier\source\repos\gestimmoBienAvancer\gestimmoBienAvanc-\gestimmo\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.dll
+C:\Users\k.gravier\source\repos\gestimmoBienAvancer\gestimmoBienAvanc-\gestimmo\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\k.gravier\source\repos\gestimmoBienAvancer\gestimmoBienAvanc-\gestimmo\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\k.gravier\source\repos\gestimmoBienAvancer\gestimmoBienAvanc-\gestimmo\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\k.gravier\source\repos\gestimmoBienAvancer\gestimmoBienAvanc-\gestimmo\bin\Debug\net6.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\k.gravier\source\repos\gestimmoBienAvancer\gestimmoBienAvanc-\gestimmo\bin\Debug\net6.0-windows\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\k.gravier\source\repos\gestimmoBienAvancer\gestimmoBienAvanc-\gestimmo\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\k.gravier\source\repos\gestimmoBienAvancer\gestimmoBienAvanc-\gestimmo\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\k.gravier\source\repos\gestimmoBienAvancer\gestimmoBienAvanc-\gestimmo\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\k.gravier\source\repos\gestimmoBienAvancer\gestimmoBienAvanc-\gestimmo\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyModel.dll
+C:\Users\k.gravier\source\repos\gestimmoBienAvancer\gestimmoBienAvanc-\gestimmo\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.dll
+C:\Users\k.gravier\source\repos\gestimmoBienAvancer\gestimmoBienAvanc-\gestimmo\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\k.gravier\source\repos\gestimmoBienAvancer\gestimmoBienAvanc-\gestimmo\bin\Debug\net6.0-windows\Microsoft.Extensions.Options.dll
+C:\Users\k.gravier\source\repos\gestimmoBienAvancer\gestimmoBienAvanc-\gestimmo\bin\Debug\net6.0-windows\Microsoft.Extensions.Primitives.dll
+C:\Users\k.gravier\source\repos\gestimmoBienAvancer\gestimmoBienAvanc-\gestimmo\bin\Debug\net6.0-windows\Mono.TextTemplating.dll
+C:\Users\k.gravier\source\repos\gestimmoBienAvancer\gestimmoBienAvanc-\gestimmo\bin\Debug\net6.0-windows\Npgsql.dll
+C:\Users\k.gravier\source\repos\gestimmoBienAvancer\gestimmoBienAvanc-\gestimmo\bin\Debug\net6.0-windows\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\k.gravier\source\repos\gestimmoBienAvancer\gestimmoBienAvanc-\gestimmo\bin\Debug\net6.0-windows\System.Text.Encodings.Web.dll
+C:\Users\k.gravier\source\repos\gestimmoBienAvancer\gestimmoBienAvanc-\gestimmo\bin\Debug\net6.0-windows\System.Text.Json.dll
+C:\Users\k.gravier\source\repos\gestimmoBienAvancer\gestimmoBienAvanc-\gestimmo\bin\Debug\net6.0-windows\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\k.gravier\source\repos\gestimmoBienAvancer\gestimmoBienAvanc-\gestimmo\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\k.gravier\source\repos\gestimmoBienAvancer\gestimmoBienAvanc-\gestimmo\obj\Debug\net6.0-windows\Views\SubViews\HomeView.baml
+C:\Users\k.gravier\source\repos\gestimmoBienAvancer\gestimmoBienAvanc-\gestimmo\obj\Debug\net6.0-windows\gestimmo WPF.g.resources
+C:\Users\k.gravier\source\repos\gestimmoBienAvancer\gestimmoBienAvanc-\gestimmo\obj\Debug\net6.0-windows\gestimmo WPF.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\k.gravier\source\repos\gestimmoBienAvancer\gestimmoBienAvanc-\gestimmo\obj\Debug\net6.0-windows\gestimmo WPF.AssemblyInfoInputs.cache
+C:\Users\k.gravier\source\repos\gestimmoBienAvancer\gestimmoBienAvanc-\gestimmo\obj\Debug\net6.0-windows\gestimmo WPF.AssemblyInfo.cs
+C:\Users\k.gravier\source\repos\gestimmoBienAvancer\gestimmoBienAvanc-\gestimmo\obj\Debug\net6.0-windows\gestimmo WPF.csproj.CoreCompileInputs.cache
+C:\Users\k.gravier\source\repos\gestimmoBienAvancer\gestimmoBienAvanc-\gestimmo\obj\Debug\net6.0-windows\gestimmo WPF.csproj.CopyComplete
+C:\Users\k.gravier\source\repos\gestimmoBienAvancer\gestimmoBienAvanc-\gestimmo\obj\Debug\net6.0-windows\gestimmo WPF.dll
+C:\Users\k.gravier\source\repos\gestimmoBienAvancer\gestimmoBienAvanc-\gestimmo\obj\Debug\net6.0-windows\refint\gestimmo WPF.dll
+C:\Users\k.gravier\source\repos\gestimmoBienAvancer\gestimmoBienAvanc-\gestimmo\obj\Debug\net6.0-windows\gestimmo WPF.pdb
+C:\Users\k.gravier\source\repos\gestimmoBienAvancer\gestimmoBienAvanc-\gestimmo\obj\Debug\net6.0-windows\gestimmo WPF.genruntimeconfig.cache
+C:\Users\k.gravier\source\repos\gestimmoBienAvancer\gestimmoBienAvanc-\gestimmo\obj\Debug\net6.0-windows\ref\gestimmo WPF.dll
+C:\Users\k.gravier\source\repos\gestimmoBienAvancer\gestimmoBienAvanc-\gestimmo\obj\Debug\net6.0-windows\Views\SubViews\NavigationView.g.cs
+C:\Users\k.gravier\source\repos\gestimmoBienAvancer\gestimmoBienAvanc-\gestimmo\obj\Debug\net6.0-windows\Views\SubViews\NavigationView.baml
+C:\Users\k.gravier\source\repos\gestimmoBienAvancer\gestimmoBienAvanc-\gestimmo\obj\Debug\net6.0-windows\Views\Forms\GererBienForm.g.cs
+C:\Users\k.gravier\source\repos\gestimmoBienAvancer\gestimmoBienAvanc-\gestimmo\obj\Debug\net6.0-windows\Views\Forms\GererBienForm.baml
+C:\Users\k.gravier\source\repos\gestimmoBienAvancer\gestimmoBienAvanc-\gestimmo\obj\Debug\net6.0-windows\Views\Forms\GererBoxForm.g.cs
+C:\Users\k.gravier\source\repos\gestimmoBienAvancer\gestimmoBienAvanc-\gestimmo\obj\Debug\net6.0-windows\Views\Forms\GererBoxForm.baml

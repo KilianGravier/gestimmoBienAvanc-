@@ -23,6 +23,12 @@ namespace gestimmo_WPF.Views.SubViews
         public HomeView()
         {
             InitializeComponent();
+           
+
+
+
         }
+
+       
     }
 }

@@ -1076,19 +1076,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\kilia\\.nuget\\packages\\": {}
+    "C:\\Users\\k.gravier\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kilia\\source\\repos\\gestimmoBienAvanc-\\gestimmo\\gestimmo WPF.csproj",
+      "projectUniqueName": "C:\\Users\\k.gravier\\source\\repos\\gestimmoBienAvancer\\gestimmoBienAvanc-\\gestimmo\\gestimmo WPF.csproj",
       "projectName": "gestimmo WPF",
-      "projectPath": "C:\\Users\\kilia\\source\\repos\\gestimmoBienAvanc-\\gestimmo\\gestimmo WPF.csproj",
-      "packagesPath": "C:\\Users\\kilia\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kilia\\source\\repos\\gestimmoBienAvanc-\\gestimmo\\obj\\",
+      "projectPath": "C:\\Users\\k.gravier\\source\\repos\\gestimmoBienAvancer\\gestimmoBienAvanc-\\gestimmo\\gestimmo WPF.csproj",
+      "packagesPath": "C:\\Users\\k.gravier\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\k.gravier\\source\\repos\\gestimmoBienAvancer\\gestimmoBienAvanc-\\gestimmo\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\kilia\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\k.gravier\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1150,7 +1150,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
       }
     }
   }

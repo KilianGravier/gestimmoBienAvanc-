@@ -7,13 +7,19 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="Views\Forms\GererBienForm.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\Forms\GererBoxForm.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Views\SubViews\BiensView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="Views\SubViews\BiensWindow.xaml.cs">
+    <Compile Update="Views\SubViews\HomeView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="Views\SubViews\HomeView.xaml.cs">
+    <Compile Update="Views\SubViews\NavigationView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
@@ -21,13 +27,19 @@
     <Page Update="MainWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="Views\Forms\GererBienForm.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Forms\GererBoxForm.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="Views\SubViews\BiensView.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Views\SubViews\BiensWindow.xaml">
+    <Page Update="Views\SubViews\HomeView.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Views\SubViews\HomeView.xaml">
+    <Page Update="Views\SubViews\NavigationView.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

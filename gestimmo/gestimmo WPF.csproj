@@ -21,7 +21,7 @@
 
   <ItemGroup>
     <Folder Include="Controllers\" />
-    <Folder Include="Views\Forms\" />
+    <Folder Include="Views\NewFolder\" />
   </ItemGroup>
 
 </Project>

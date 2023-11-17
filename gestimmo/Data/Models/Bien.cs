@@ -25,6 +25,10 @@ namespace gestimmo_WPF
             this.baux = new List<Contrat>();
             this.interventions = new List<Intervention>();
             this.pret = null;
+            Valeur = 0; // Remplacez 0 par une valeur par défaut appropriée si nécessaire
+            Surface = 0; // Remplacez 0 par une valeur par défaut appropriée si nécessaire
+            Adresse = string.Empty; // Remplacez string.Empty par une valeur par défaut appropriée si nécessaire
+
         }
 
         public int BienId { get; set; }

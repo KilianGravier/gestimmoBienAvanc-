@@ -1,27 +1,88 @@
-﻿<Page x:Class="gestimmo_WPF.Views.SubViews.BiensView"
-      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
-      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
-      mc:Ignorable="d" 
-      d:DesignHeight="450" d:DesignWidth="800"
-      Title="BiensView">
-
+﻿<UserControl x:Class="gestimmo_WPF.Views.SubViews.BiensView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:local="clr-namespace:gestimmo_WPF.Views.Forms"
+             mc:Ignorable="d">
     <Grid>
-        <!-- éléments graphiques -->
-        <StackPanel>
-            <Label Content="Liste des biens" FontWeight="Bold" FontSize="18"/>
-            <ListView>
-               
-                <!--  colonnes pour afficher les détails des biens -->
+        <!-- Grille pour organiser les éléments de la page -->
+        <!-- Partie gauche - Détails des biens -->
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        <!-- StackPanel pour organiser verticalement les éléments -->
+        <StackPanel Grid.Column="0">
+            <!-- Titre "Mes biens" -->
+            <TextBlock Text="Mes biens" FontSize="18" FontWeight="Bold" Margin="5"/>
+
+            <!-- ComboBox pour le type de bien -->
+            <ComboBox Name="TypeBienComboBox" Margin="5">
+                <!-- Options du type de bien -->
+                <ComboBoxItem Content="Maison"/>
+                <ComboBoxItem Content="Appartement"/>
+                <!-- Ajoutez d'autres options selon vos besoins -->
+            </ComboBox>
+
+            <!-- Liste des biens -->
+            <ListView Name="MesBiensListView">
+                <!-- Structure pour afficher les biens -->
                 <ListView.View>
                     <GridView>
-                        <GridViewColumn Header="Nom" Width="120"/>
-                        <GridViewColumn Header="Type" Width="100"/>
-                        <!-- Ajoutez d'autres colonnes selon les informations à afficher -->
+                        <!-- Colonne pour le nom du bien -->
+                        <GridViewColumn Header="Nom du Bien" DisplayMemberBinding="{Binding Nom}" Width="150"/>
+                        <!-- Autres colonnes -->
+                        <!-- Colonne pour la surface du bien -->
+                        <GridViewColumn Header="Surface" DisplayMemberBinding="{Binding Surface}" Width="100"/>
+                        <!-- Autres colonnes -->
+                        <!-- Colonne pour la surface de valeur -->
+                        <GridViewColumn Header="Valeur" DisplayMemberBinding="{Binding Valeur}" Width="100"/>
                     </GridView>
                 </ListView.View>
             </ListView>
         </StackPanel>
+
+        <!-- Partie droite - Formulaire pour ajouter un bien -->
+        <StackPanel Grid.Column="1">
+            <!-- Titre "Ajouter un bien" -->
+            <TextBlock Text="Ajouter un bien" FontSize="18" FontWeight="Bold" Margin="5"/>
+
+            <!-- Formulaire pour ajouter un bien -->
+            <StackPanel Orientation="Vertical">
+          
+
+                <!-- Deuxième bloc (Nom du bien) -->
+                <StackPanel Orientation="Horizontal" Margin="5">
+                    <TextBlock Text="Nom du bien:" VerticalAlignment="Center" Margin="0,0,10,0"/>
+                    <TextBox Name="NomBienTextBox" Margin="0" Width="150"/>
+                </StackPanel>
+
+                <!-- Troisième bloc (Valeur du bien) -->
+                <StackPanel Orientation="Horizontal" Margin="5">
+                    <TextBlock Text="Valeur du bien:" VerticalAlignment="Center" Margin="0,0,10,0"/>
+                    <TextBox Name="ValeurBienTextBox" Margin="0" Width="150"/>
+                </StackPanel>
+
+                <!-- Quatrième bloc (Adresse du bien) -->
+                <StackPanel Orientation="Horizontal" Margin="5">
+                    <TextBlock Text="Adresse du bien:" VerticalAlignment="Center" Margin="0,0,10,0"/>
+                    <TextBox Name="AdresseDuBienTextBox" Margin="0" Width="150"/>
+                </StackPanel>
+
+                <!-- Cinquième bloc (Surface du bien) -->
+                <StackPanel Orientation="Horizontal" Margin="5">
+                    <TextBlock Text="Surface du bien:" VerticalAlignment="Center" Margin="0,0,10,0"/>
+                    <TextBox Name="SurfaceBienFormulaireTextBox" Margin="0" Width="150"/>
+                </StackPanel>
+
+                <!-- Sixième bloc (Bouton Ajouter) -->
+                <Button Content="Ajouter" Click="AjouterBien_Click" Margin="0,0,5,5" Width="100"/>
+            </StackPanel>
+          
+        </StackPanel>
+       
     </Grid>
-</Page>
+
+</UserControl>

@@ -1,0 +1,46 @@
+﻿<UserControl x:Class="gestimmo_WPF.Views.Forms.GererBienForm"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d">
+    <Grid>
+        <!-- Premier bloc (Type de bien) -->
+        <StackPanel Orientation="Horizontal" Margin="5">
+            <TextBlock Text="Type de bien:" VerticalAlignment="Center" Margin="0,0,10,0"/>
+            <ComboBox Name="TypeBienComboBoxFormulaire" Margin="0" Width="150">
+                <!-- Options du type de bien -->
+                <ComboBoxItem Content="Maison"/>
+                <ComboBoxItem Content="Appartement"/>
+                <!-- Ajoutez d'autres options selon vos besoins -->
+                <!-- Deuxième bloc (Nom du bien) -->
+                <StackPanel Orientation="Horizontal" Margin="5">
+                    <TextBlock Text="Nom du bien:" VerticalAlignment="Center" Margin="0,0,10,0"/>
+                    <TextBox Name="NomBienTextBox" Margin="0" Width="150"/>
+                </StackPanel>
+
+                <!-- Troisième bloc (Valeur du bien) -->
+                <StackPanel Orientation="Horizontal" Margin="5">
+                    <TextBlock Text="Valeur du bien:" VerticalAlignment="Center" Margin="0,0,10,0"/>
+                    <TextBox Name="ValeurBienTextBox" Margin="0" Width="150"/>
+                </StackPanel>
+
+                <!-- Quatrième bloc (Adresse du bien) -->
+                <StackPanel Orientation="Horizontal" Margin="5">
+                    <TextBlock Text="Adresse du bien:" VerticalAlignment="Center" Margin="0,0,10,0"/>
+                    <TextBox Name="AdresseDuBienTextBox" Margin="0" Width="150"/>
+                </StackPanel>
+
+                <!-- Cinquième bloc (Surface du bien) -->
+                <StackPanel Orientation="Horizontal" Margin="5">
+                    <TextBlock Text="Surface du bien:" VerticalAlignment="Center" Margin="0,0,10,0"/>
+                    <TextBox Name="SurfaceBienFormulaireTextBox" Margin="0" Width="150"/>
+                </StackPanel>
+
+            </ComboBox>
+        </StackPanel>
+
+        <!-- Ajoutez d'autres éléments de formulaire ici -->
+        <!-- ... -->
+    </Grid>
+</UserControl>
