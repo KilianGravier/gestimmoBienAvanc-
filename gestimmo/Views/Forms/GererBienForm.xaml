@@ -16,10 +16,16 @@
             <ColumnDefinition Width="53*"/>
             <ColumnDefinition Width="7*"/>
         </Grid.ColumnDefinitions>
+        <TextBlock VerticalAlignment="Top" Margin="516,-100,-342,0" Grid.ColumnSpan="2" FontSize="18">
+    <Run Language="fr-fr" Text="Ajouter un Bien " FontWeight="Bold"/>
+    <Run Text=":"/>
+        </TextBlock>
+
 
         <!-- Premier bloc (Type de bien) -->
-        <StackPanel Orientation="Horizontal" Margin="169,-222,347,131">
-            <TextBlock Text="Type de bien:" VerticalAlignment="Center" Margin="0,0,10,0"/>
+        <StackPanel Orientation="Horizontal" Margin="516,-226,165,135" Grid.ColumnSpan="2">
+
+            <TextBlock Text="Type de bien:" VerticalAlignment="Center" Margin="0,0,10,0"/>  
             <ComboBox x:Name="TypeBienComboBoxFormulaire" Width="90" Height="22" HorizontalAlignment="Right">
                 <!-- Ajoutez d'autres options selon vos besoins -->
 
@@ -27,15 +33,19 @@
 
                 <!-- Options du type de bien -->
                 <ComboBoxItem Content="Maison"/>
+                <ComboBoxItem Content="Box"/>
                 <ComboBoxItem Content="Appartement"/>
 
 
-
             </ComboBox>
+
+
+
         </StackPanel>
 
         <!-- Ajoutez d'autres éléments de formulaire ici -->
         <!-- ... -->
+
 
     </Grid>
 </Page>

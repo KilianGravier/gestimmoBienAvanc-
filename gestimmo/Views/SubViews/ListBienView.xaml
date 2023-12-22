@@ -9,6 +9,8 @@
       Title="ListBienView">
 
     <Grid>
+
+
         <!-- Grille pour organiser les éléments de la page -->
         <!-- Partie gauche - Détails des biens -->
         <Grid.ColumnDefinitions>
@@ -17,29 +19,43 @@
         </Grid.ColumnDefinitions>
 
         <!-- StackPanel pour organiser verticalement les éléments -->
-        <StackPanel Grid.Column="0">
+        <StackPanel Grid.Column="0" Margin="-35,14,35,-14">
             <!-- Titre "Mes biens" -->
-            <TextBlock Text="Mes biens" FontSize="18" FontWeight="Bold" Margin="5"/>
 
             <!-- ComboBox pour le type de bien -->
-            
+
             <!-- Liste des biens -->
-            <ListView Name="MesBiensListView">
+            <!-- Titre "Mes biens" -->
+
+            <!-- Liste des biens -->
+            <!-- Titre "Mes biens" -->
+            <!-- Titre "Mes biens" -->
+            <!-- Titre "Mes biens" -->
+            <TextBlock Text="Mes biens" FontSize="18" FontWeight="Bold" Width="104"/>
+            <ListView x:Name="MesBiensListView" Width="357" Height="22">
                 <!-- Structure pour afficher les biens -->
                 <ListView.View>
                     <GridView>
+                        <!-- Autres colonnes -->
+
+                        <!-- Autres colonnes -->
+
                         <!-- Colonne pour le nom du bien -->
                         <GridViewColumn Header="Nom du Bien" DisplayMemberBinding="{Binding Nom}" Width="150"/>
-                        <!-- Autres colonnes -->
                         <!-- Colonne pour la surface du bien -->
                         <GridViewColumn Header="Surface" DisplayMemberBinding="{Binding Surface}" Width="100"/>
-                        <!-- Autres colonnes -->
                         <!-- Colonne pour la surface de valeur -->
                         <GridViewColumn Header="Valeur" DisplayMemberBinding="{Binding Valeur}" Width="100"/>
                     </GridView>
                 </ListView.View>
             </ListView>
+
+            <!-- Liste des biens -->
+            <Frame x:Name="Gauche" Grid.ColumnSpan="3" Margin="243,0,-114,0"/>
+
         </StackPanel>
 
     </Grid>
+
+
 </Page>

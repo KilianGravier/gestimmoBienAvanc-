@@ -11,7 +11,8 @@ namespace gestimmo_WPF.Views.SubViews
         {
             InitializeComponent();
             this.Droite.Navigate(new GererBienForm());
-            this.DroiteList.Navigate(new GererBoxForm());  
+          
+            this.Gauche.Navigate(new ListBienView());
         }
     
     }
